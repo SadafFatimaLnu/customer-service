@@ -1,0 +1,112 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e0e5ec;
+  color: #333;
+  padding: 30px 15px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.6rem;
+  color: #2c3e50;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #5d6d7e;
+}
+
+/* Card Layout */
+.card {
+  background: #e0e5ec;
+  border-radius: 16px;
+  box-shadow: 9px 9px 16px #b8bac0,
+              -9px -9px 16px #ffffff;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 920px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: inset 5px 5px 10px #bfc3c9,
+              inset -5px -5px 10px #ffffff;
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  color: #0e639c;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #2e4053;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #e0e5ec;
+  color: #0e639c;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #b8bac0,
+              -5px -5px 10px #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: inset 3px 3px 6px #b8bac0,
+              inset -3px -3px 6px #ffffff;
+  background: #f0f3f8;
+}
+
+/* Images */
+.responsive-img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px 12px #b8bac0,
+              -6px -6px 12px #ffffff;
+}
+
+/* Sample Response Preformatted Block */
+.sample-response {
+  background: #e0e5ec;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2e2e2e;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  box-shadow: inset 4px 4px 8px #c1c3c8,
+              inset -4px -4px 8px #ffffff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-top: 50px;
+}
